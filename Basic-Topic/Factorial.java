@@ -5,9 +5,9 @@ public class Factorial {
         System.out.print("enter the number : ");
         int num = sc.nextInt();
         int factorial= 1;
-        for(int i=1; i<=num; i++){
-            factorial= factorial*i;
-
+        while (num >=1) {
+            factorial = factorial*num;
+            num= num-1;
         }
         System.out.print(factorial);
     }
