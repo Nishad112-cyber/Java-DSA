@@ -5,8 +5,7 @@ public class AdditionAll {
         
         for(int i=0; i<arr.length; i++){
              sum=  sum+arr[i];
-           
-             
+               
         }
         System.out.print("this is total sum of Arrary : "+sum);
     }
