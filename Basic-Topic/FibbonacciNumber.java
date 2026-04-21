@@ -1,11 +1,8 @@
 public class FibbonacciNumber {
     public static int Fiboo(int n){
         if(n<=1){
-            return n;
-        
         }
         return Fiboo(n-1) +Fiboo(n-2);
-    
 
     }
     public static void main(String[] args) {
