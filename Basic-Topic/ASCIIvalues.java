@@ -6,7 +6,7 @@ public class ASCIIvalues {
         System.out.print("enter the letter : ");
         char str = sc.next().charAt(0);
           int value = (int)str;
-        System.out.print("ASCII value of "+str+" is : "+value);
+        System.out.print("ASCII value of "+str+" is that: "+value);
 
         
     }
