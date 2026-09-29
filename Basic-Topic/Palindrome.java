@@ -12,9 +12,11 @@ public class Palindrome {
     }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
+        
         System.out.print("Enter your String : ");
         String str= sc.nextLine();
-        CheckPaline(str);
+        // CheckPaline(str);
+         System.out.println("You entered : " + str);
         System.out.println("this is result : "+CheckPaline(str));
 
         
