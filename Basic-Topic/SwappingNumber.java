@@ -4,9 +4,13 @@ public  class SwappingNumber {
         int a= 10;
         int b= 23;
 
-        int num= a;
-           a= b;
-           b= num;
+        // int num= a;
+        //    a= b;
+        //    b= num;
+
+         a= a^b;
+         b=a^b;
+         a=a^b;
 
         System.out.println("now a became b : "+a);
         System.out.println("now b became a : "+b);
