@@ -1,14 +1,17 @@
-public class FibbonacciNumber {
-    public static int Fiboo(int n){
-        if(n<=1){
-        }
-        return Fiboo(n-1) +Fiboo(n-2);
+public  class FibbonacciNumber {
 
+    static int fib(int n) {
+    if(n == 0 || n == 1) {
+        return n;
     }
-    public static void main(String[] args) {
-        int n= 8;
-        for(int i=0; i<n; i++){
-            System.out.print(Fiboo(i)+" ");
-        }
+
+    return fib(n - 1) + fib(n - 2);
+}
+public static void main(String[] args) {
+    int n= 19;
+    for(int i=0; i<n; i++){
+        System.out.print(fib(i)+" ,");
     }
+}
+    
 }
