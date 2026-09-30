@@ -16,7 +16,7 @@ public class BinarySearch {
     return -1;
     }
     public static void main(String[] args) {
-        int arr[]= {2,3,4,6,4,7,8};
+        int arr[]= {2,3,4,6,4,8};
         int key= 7;
        System.out.println("this is index = : "+BiSearch(arr,key));
        
