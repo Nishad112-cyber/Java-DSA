@@ -8,7 +8,7 @@ public class Getindex {
         return -1;
     }
     public static void main(String[] args) {
-        int arr[]= {1,2,3,4,5,9,8,6,44};
+        int arr[]= {1,2,3,4,5,9,4};
         int key= 6;
         
         int index=Getelement(arr, key);
