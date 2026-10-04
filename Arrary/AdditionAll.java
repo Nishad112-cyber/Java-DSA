@@ -10,7 +10,7 @@ public class AdditionAll {
         System.out.print("this is total sum of Arrary : "+sum);
     }
     public static void main(String[] args) {
-        int arr[]= {1,2,3,9};
+        int arr[]= {1,2,3,4,5,6};
         addition(arr);
     }
 }
