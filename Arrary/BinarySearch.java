@@ -8,15 +8,15 @@ public class BinarySearch {
             return mid;
         }
         else if(arr[mid]<key){
-            start++;
+            start = mid + 1;;
         }else{
-            end--;
+         end = mid - 1;;
         }
     }
     return -1;
     }
     public static void main(String[] args) {
-        int arr[]= {2,3,4,6,4,8};
+        int arr[]= {2, 3, 3, 4, 6, 7, 9, 22};
         int key= 7;
        System.out.println("this is index = : "+BiSearch(arr,key));
        
