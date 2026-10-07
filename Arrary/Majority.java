@@ -15,7 +15,7 @@ public class Majority {
         }         
     }
     public static void main(String[] args) {
-        int arr[]= {8,2,8,8,8,8,3,9,1};
+        int arr[]= {8,2,1,1,1,1,1,1};
         MajorityNbyTwo(arr);
     }
 }
