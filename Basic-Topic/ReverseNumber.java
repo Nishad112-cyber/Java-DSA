@@ -4,13 +4,13 @@ public class ReverseNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter the number : ");
         int num = sc.nextInt();
-       int rev=0;
+       int reverse=0;
        while (num>0) {
          int lastdigit= num%10;
-         rev= rev*10+lastdigit;
+         reverse= reverse*10+lastdigit;
          num= num/10;
        }
-       System.out.print(rev);
+       System.out.print(reverse);
     }
 }
 
