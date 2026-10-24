@@ -4,9 +4,9 @@ public class LargestNum2 {
         Scanner sc= new Scanner(System.in);
         System.out.print("enter your first num : ");
         int a= sc.nextInt();
-        System.out.print("enter your second number : ");
+        System.out.print("enter your second num : ");
         int b= sc.nextInt();
-        System.out.print("enter your third number : ");
+        System.out.print("enter your third num : ");
         int c= sc.nextInt();
         
         if(a>b && a>c){
