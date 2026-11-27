@@ -15,7 +15,7 @@ public class ToweOfHanoi {
     }
 
     public static void main(String[] args) {
-        int n = 3;
+        int n = 4;
         hanoi(n, 'A', 'B', 'C');
     }
 }
