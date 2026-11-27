@@ -7,7 +7,7 @@ public class CountDigit {
 
     }
     public static void main(String[] args) {
-        int n= 123456;
+        int n= 123;
         System.out.print(CountDigit(n));
     }
 }
